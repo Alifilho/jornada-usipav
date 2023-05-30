@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Home from "./pages/Home";
 
 const API_URL = "http://127.0.0.1:5000"
 
@@ -17,8 +18,14 @@ function App() {
     handleHealthCheck();
   }, [])
 
+  useEffect(() => {
+    console.log(message);
+  }, [message])
+
   return (
-    <div className="App">Hello World, {message}</div>
+    <div className="App h-full w-full">
+      <Home />
+    </div>
   )
 }
 
