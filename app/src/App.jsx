@@ -33,7 +33,8 @@ function App() {
     <div className="App mh-100 mw-100">
       <div className="w-100 p-2 justify-content-between d-flex bg-dark">
         <div className="d-flex">
-          <Link to="/" className="button rounded-1 d-flex justify-content-center align-items-center bg-info p-3 text-white mx-1"><BsHouse /></Link>
+          <Link to="/" className="button rounded-1 d-flex justify-content-center align-items-center bg-info p-3 fw-bold text-white mx-1"><BsHouse /></Link>
+          <Link to="/por-silo" className="button text-decoration-none fw-bold rounded-1 d-flex justify-content-center align-items-center bg-info p-3 text-white mx-1">Visualização por silo</Link>
           <Link to="/relatorios" className="button text-decoration-none fw-bold rounded-1 d-flex justify-content-center align-items-center bg-info p-3 text-white mx-1">Relatórios</Link>
         </div>
         <div className="text-white fs-2 align-items-center">{temperature}ºC</div>

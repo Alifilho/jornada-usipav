@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import Info from "../../layout/Info";
 
-import defaultSilos from "../../../sample/silo-data.json"
+import siloData from "../../../sample/silo-data.json"
 
 const Home = () => {
-  const [silos] = useState(defaultSilos)
+  const defaultSilo = siloData.reduce((item, next) => ({
+    volume: item.volume += next.volume,
+    temperature: item.temperature += next.temperature,
+    weight:item.weight += next.weight,
+  }), {volume: 0, temperature: 0, weight: 0})
+  const [silo] = useState(defaultSilo);
 
   return (
     <div className="container">
-      <div className="row">
-        <Info id={silos[0].id} temperature={silos[0].temperature} volume={silos[0].volume} weight={silos[0].weight}/>
-        <Info id={silos[1].id} temperature={silos[1].temperature} volume={silos[1].volume} weight={silos[1].weight}/>
-        <Info id={silos[2].id} temperature={silos[2].temperature} volume={silos[2].volume} weight={silos[2].weight}/>
-        <Info id={silos[3].id} temperature={silos[3].temperature} volume={silos[3].volume} weight={silos[3].weight}/>
+       <div className="row">
+      <Info principal id={1} temperature={silo.temperature} volume={silo.volume} weight={silo.weight}/>
       </div>
     </div>
   )
