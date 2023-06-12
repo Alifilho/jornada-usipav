@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c034c993-b576-4f97-8dc8-d83e7def3353" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastucture/ia/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/infrastucture/ia/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastucture/socket/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/infrastucture/socket/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/layout/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/layout/Menu/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/pages/Home/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="c034c993-b576-4f97-8dc8-d83e7def3353" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +71,7 @@
       <workItem from="1685650564936" duration="358000" />
       <workItem from="1685917737353" duration="2743000" />
       <workItem from="1686091059430" duration="91000" />
+      <workItem from="1686178428999" duration="100000" />
     </task>
     <servers />
   </component>

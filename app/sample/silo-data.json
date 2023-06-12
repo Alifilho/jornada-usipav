@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "temperature": 23,
+    "volume": 29,
+    "weight": 467
+  },
+  {
+    "id": 2,
+    "temperature": 23,
+    "volume": 29,
+    "weight": 467
+  },
+  {
+    "id": 3,
+    "temperature": 23,
+    "volume": 29,
+    "weight": 467
+  },
+  {
+    "id": 4,
+    "temperature": 23,
+    "volume": 29,
+    "weight": 467
+  }
+]

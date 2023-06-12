@@ -7,6 +7,8 @@ import Router from "./Routes";
 
 const API_URL = `"http://127.0.0.1:5000"`
 
+// TODO: @Ali que nem vc tinha pedido ontem, cria duas telas 1 sendo o silo como um todo e outra sendo todos os silos separados, e um link dessa tela do silo que vai pra a tela de todos os silos, puxar os arquivos de um json, acho que eu me lembre so isso de alteração
+
 function App() {
   const [message, setMessage] = useState("API not Working!")
   const [temperature] = useState(32)

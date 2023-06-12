@@ -1,17 +1,6 @@
 import React from 'react';
 
-const data = [
-  {
-    date: '2023-06-01 09:23:00',
-    time: '1h 32m',
-    accuracy: '78%',
-  },
-  {
-    date: '2023-06-02 14:45:00',
-    time: '58m',
-    accuracy: '91%',
-  },
-];
+import data from "../../../sample/silo-history.json"
 
 const ReportTable = () => {
   return (

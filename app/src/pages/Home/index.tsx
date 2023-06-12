@@ -1,32 +1,7 @@
 import React, { useState } from "react";
 import Info from "../../layout/Info";
 
-const defaultSilos = [
-  {
-    id: 1,
-    temperature: 23,
-    volume: 29,
-    weight: 467
-  },
-  {
-    id: 2,
-    temperature: 23,
-    volume: 29,
-    weight: 467
-  },
-  {
-    id: 3,
-    temperature: 23,
-    volume: 29,
-    weight: 467
-  },
-  {
-    id: 4,
-    temperature: 23,
-    volume: 29,
-    weight: 467
-  }
-]
+import defaultSilos from "../../../sample/silo-data.json"
 
 const Home = () => {
   const [silos] = useState(defaultSilos)
