@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 
-from infrastucture.ia.calc import abc
+from infrastructure.ia.calc import abc
 
 app = Flask(__name__)
 cors = CORS(app)
